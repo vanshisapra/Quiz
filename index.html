@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Quiz</title>
+    <link href="style.css" rel="stylesheet"> <!--This link tag is used to link the css sheet to html-->
+    <link href="css/fontawesome.css">
+</head>
+<body>                                        <!--This is the body tag which includes the main logic of the code-->
+ <div class="main">                           <!--This division tag is used to divide each section of the code so that
+                                               it can be identified easily.-->
+     <div class="inner">              
+         <div id="upper">
+         <h2 class="question">Question Come here</h2>
+         <ul >
+            <li><input type="radio" name="answer" id="ans1" class="answer">   <!--This radio button includes the options for the 
+                                                                               questions.-->
+                <label for="ans1" id="opt1">Answer Option</label>
+            </li>
+            <li><input type="radio" name="answer" id="ans2" class="answer">
+                <label for="ans2" id="opt2">Answer Option</label>
+            </li>
+            <li><input type="radio" name="answer" id="ans3" class="answer">
+                <label for="ans3" id="opt3">Answer Option</label>
+            </li>
+            <li><input type="radio" name="answer" id="ans4" class="answer">
+                <label for="ans4" id="opt4">Answer Option</label>
+            </li>
+            
+
+         </ul>
+         <button id="submit" class="btn" > Submit</button>                    <!--This is the submit button used to submit the test-->
+        </div>
+         <div class="scoreArea" id="showScore"></div>                         <!--This division is used to show the score for the test -->
+     </div>
+ </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
